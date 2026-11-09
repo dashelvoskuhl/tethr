@@ -14,26 +14,16 @@ On cold calls, agencies told me same day care is not how their industry works. W
 
 ## How it works
 
-- Next.js app on Cloudflare Workers (through OpenNext), served at jointethr.app/app
-- Supabase for sign in and the Postgres database, with the household tables locked down
-- Family side: address search with autocomplete and a live map, booking details, and request status
+- Next.js app on Cloudflare Workers, served at jointethr.app/app
+- Supabase for sign in and the database
+- Family side: address search with a live map, booking details and request status
 - Caregiver side: set availability, then accept or decline each request
-- Operator console with live visitor counts and charts that refresh every ten seconds
-- A security pass before launch covering authorization, CSRF protection, credentials and rate limits
-
-## Designed around California law
-
-Without a state license, Tethr could not assign caregivers or set their pay. So the family picks the caregiver, the caregiver accepts or declines, and the app never assigns anyone.
-
-## Team
-
-- Dash Voskuhl, cofounder and CEO: product, design and the web app
-- Yousif, cofounder and CTO
-- Harvey, cofounder and COO
+- Operator console with live visitor counts and charts
+- Security pass before launch covering authorization, CSRF, credentials and rate limits
 
 ## Code
 
-The source stays private because the app stored family addresses and visit details. I'm happy to walk through it on a call.
+The source is private because the app stored family addresses. I'm happy to walk through it on a call.
 
 ## Status
 
