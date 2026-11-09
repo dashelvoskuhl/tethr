@@ -23,7 +23,7 @@ On cold calls, agencies told me same day care is not how their industry works. W
 
 ## Code
 
-The source is private because the app stored family addresses. I'm happy to walk through it on a call.
+The source is private because the app stored family addresses.
 
 ## Status
 
